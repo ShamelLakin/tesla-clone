@@ -5,11 +5,11 @@ import TeslaLogo from '../assets/teslaLogoSmall.svg'
 const Header = () => {
     return (
       <div className="header">
-        <div className=".header__logo">
+        <div className="header__logo">
           <img src={TeslaLogo} alt="Tesla Logo" />
         </div>
 
-        <div className=".header__center">
+        <div className="header__center">
           <p>Model 5</p>
           <p>Model 3</p>
           <p>Model x</p>
@@ -18,7 +18,7 @@ const Header = () => {
           <p>Solar Panel</p>
         </div>
 
-        <div className=".header__right">
+        <div className="header__right">
           <p>Shop</p>
           <p>Tesla Account</p>
         </div>
