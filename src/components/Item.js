@@ -14,7 +14,7 @@ const item = ({
   first,
 }) => {
   return (
-    <div className="item " style={{
+    <div className="item" style={{
         backgroundImage: `url(${backgroundImg})`
     }}>
       <div className="item__container">
@@ -33,7 +33,7 @@ const item = ({
           </div>
           {first && (
               <div className='item__expand'>
-                  {/* <ExpandMoreIcon/> */}
+                  <ExpandMoreIcon/>
               </div>
           )}
         </div>
