@@ -10,7 +10,7 @@ const Header = () => {
         </div>
 
         <div className="header__center">
-          <p>Model 5</p>
+          <p>Model S</p>
           <p>Model 3</p>
           <p>Model x</p>
           <p>Model y</p>
