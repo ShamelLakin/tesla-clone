@@ -33,7 +33,7 @@ const item = ({
           </div>
           {first && (
               <div className='item__expand'>
-                  <ExpandMoreIcon/>
+                  {/* <ExpandMoreIcon/> */}
               </div>
           )}
         </div>
