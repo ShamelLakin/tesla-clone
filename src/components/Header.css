@@ -3,12 +3,24 @@
     background-color: transparent;
     background: none;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
     margin: 15px;
     margin-top: 15px;
     z-index: 100;
+    cursor: pointer;
+    
 }
+
+/* position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s; */
 
 .header__logo{
     height: 24;
@@ -31,8 +43,33 @@
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
+    
 }
 
 .header__right>p{
     margin: 20px;
+}
+
+.hamburger{
+
+    background-color: transparent;
+    border: 0;
+    display: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .header__center {
+        display: none;
+    }
+
+    .header__right {
+        display: none;
+    }
+    /* .hamburger {
+        display: block;
+        
+    } */
 }
